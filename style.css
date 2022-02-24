@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-page{
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    height: 96vh;
+}
+.login{
+    position: absolute;
+    top: 24%;
+  
+    left: 38%;
+
+}
+.login{
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 100px;
+    text-align: center;
+    border-radius: 60px 0px;
+    box-shadow: 10px 10px 40px gray;
+  
+}
+.login i{
+    
+   border: 2px solid rgb(235, 227, 230);
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   font-size: 40px;
+   padding: 15px;
+   background-color: rgb(212, 90, 131);
+   
+}
+.login li{
+    
+   
+  
+   font-size: 18px;
+   margin: 5px;
+
+}
+.login input{
+   
+   
+    border: none;
+   background-color:pink;
+   height: 20px;
+   border-radius: 10px;
+     
+   box-shadow: 10px 10px 20px rgb(218, 94, 197);
+   display: block;
+   padding-left: 15%;
+   
+    
+}
+.login button{
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: none;
+    color: beige;
+    margin-top: 30px;
+    background: hsl(300, 64%, 57%);
+    cursor: pointer;
+    box-shadow: 10px 10px 20px palevioletred;
+
+}
+.login button:hover{
+    background:none;
+    color: white;
+    background-color: black;
+}
